@@ -32,7 +32,7 @@ class Singleton
     }
 }
 
-class A
+class First
 {
     /**
      * @var string
@@ -45,7 +45,7 @@ class A
     }
 }
 
-class B
+class Second
 {
     /**
      * @var string
@@ -59,12 +59,12 @@ class B
 }
 
 $singleton = Singleton::getInstance("This is the text.");
-$a = new A($singleton->getText());
-$b = new B($singleton->getText());
+$firstClass = new First($singleton->getText());
+$secondClass = new Second($singleton->getText());
 
 var_dump($singleton);
-var_dump($a);
-var_dump($b);
+var_dump($firstClass);
+var_dump($secondClass);
 
 /*
 The output:
@@ -74,10 +74,10 @@ object(Singleton)[1]
   private 'text' => string 'This is the text.' (length=17)
 
 designpatternsphp\Singleton\index.php:66:
-object(A)[2]
+object(First)[2]
   private 'text' => string 'This is the text.' (length=17)
 
 designpatternsphp\Singleton\index.php:67:
-object(B)[3]
+object(Second)[3]
   private 'text' => string 'This is the text.' (length=17)
 */
