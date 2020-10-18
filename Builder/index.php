@@ -1,6 +1,7 @@
 <?php
 
-class BankAccount {
+class BankAccount
+{
     /**
      * @var int
      */
@@ -30,7 +31,8 @@ class BankAccount {
     }
 }
 
-class AccountBuilder {
+class AccountBuilder
+{
     /**
      * @var int
      */
