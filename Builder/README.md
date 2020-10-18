@@ -71,4 +71,6 @@ BankAccount anotherAccount = new BankAccount.Builder(4567L)
             .build();
 </pre>
 
+The example rewritten into [PHP](https://github.com/bulbulica2/designpatternsphp/blob/master/Builder/index.php).
+
 The code idea was taken from the following website: https://dzone.com/articles/design-patterns-the-builder-pattern
