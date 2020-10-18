@@ -3,7 +3,7 @@
 class Singleton
 {
     /**
-     * @var null
+     * @var \Singleton
      */
     private static $instance = null;
 
