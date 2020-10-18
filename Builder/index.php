@@ -94,19 +94,19 @@ var_dump($account3);
 /*
 The output:
 
-designpatternsphp\Builder\index.php:88:
+designpatternsphp\Builder\index.php:90:
 object(BankAccount)[2]
   private 'accountNumber' => int 50
   private 'owner' => string 'Homer' (length=5)
   private 'branch' => null
 
-designpatternsphp\Builder\index.php:89:
+designpatternsphp\Builder\index.php:91:
 object(BankAccount)[3]
   private 'accountNumber' => int 51
   private 'owner' => null
   private 'branch' => string 'Spring Time' (length=11)
 
-designpatternsphp\Builder\index.php:90:
+designpatternsphp\Builder\index.php:92:
 object(BankAccount)[4]
   private 'accountNumber' => int 0
   private 'owner' => string 'Jolly' (length=5)
