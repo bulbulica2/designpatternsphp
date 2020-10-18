@@ -7,4 +7,4 @@ For the moment, the following design patterns are added to the repository:
 * [Builder](https://github.com/bulbulica2/designpatternsphp/tree/master/Builder)
 * [Singleton](https://github.com/bulbulica2/designpatternsphp/tree/master/Singleton)
 
-People are always saying that PHP is a low level programming language but from 7.4 it became a strong type language that can become a very powerful tool nowadays.
+From PHP 7.4 it became a strong type language that is very powerful nowadays.
