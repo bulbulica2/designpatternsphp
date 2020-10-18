@@ -1,11 +1,9 @@
 # Builder design pattern
 **The problem:**<br/>
-The constructor has a lot of parameters, some of them are mandatory (or not) and a lot of them are optional. 
+The constructor has a lot of parameters, some of them are mandatory, and a lot of them are optional. 
 
-In order to use this class, a programmer needs to construct it with all the parameters and there might be a lot of null values:<br/> 
-<pre>$customObject = new CustomObject(1, null, null, null, null);</pre>
-
-Or it is needed only with the first parameter and the last parameter and the others will be null. <br/>
+In order to use this class, a programmer needs to construct it with all the parameters and there might be a lot of null values, example:<br/>
+CustomObject is needed only with the first parameter and the last parameter and the others will be null. <br/>
 <pre>$customObject = new CustomObject(1, null, null, null, 2);</pre>
 
 The class has only a constructor and getters. In will be closed for changing, once it is instantiated, so the values will not be modified on the whole runtime process.
